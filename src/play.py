@@ -50,5 +50,5 @@ while not game_ended:
 
 	for direction in directions:
 		choice = random.choice(direction)
-		# print_current_tiles(i)
+		print_current_tiles(i)
 		ActionChains(driver).send_keys(choice).perform()
